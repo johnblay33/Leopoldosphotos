@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two')
+;
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1 {
+  margin: 0;
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+/* header
+=============================== */
+
+header {
+  /*--position: absolute;--*/
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem
+  padding: .5em
+  color: #696969;
+}
+
+nav a:hover,
+nav a:focus {
+  color:  #5f9ea0;
+
+}
+
+@media (min-width:60rem ) {
+  .text-logo {
+    float: left;
+  }
+nav {
+  float: right;
+}
+}
